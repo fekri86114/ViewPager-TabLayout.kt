@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.app.kotlintraining">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KotlinTraining"
+        tools:targetApi="31">
+        <activity
+            android:name=".IstpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IstjActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IsfpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IsfjActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IntpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IntjActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InfpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InfjActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EstpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EstjActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EsfpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EsfjActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EntpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EntjActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EnfpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EnfjActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".details.YellowActivity"
+            android:exported="false" />
+        <activity
+            android:name=".details.RedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".details.BlueActivity"
+            android:exported="false" />
+        <activity
+            android:name=".details.GreenActivity"
+            android:exported="false" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
