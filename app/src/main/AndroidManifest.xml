@@ -14,52 +14,10 @@
         android:theme="@style/Theme.KotlinTraining"
         tools:targetApi="31">
         <activity
-            android:name=".IstpActivity"
+            android:name=".SquareActivity"
             android:exported="false" />
         <activity
-            android:name=".IstjActivity"
-            android:exported="false" />
-        <activity
-            android:name=".IsfpActivity"
-            android:exported="false" />
-        <activity
-            android:name=".IsfjActivity"
-            android:exported="false" />
-        <activity
-            android:name=".IntpActivity"
-            android:exported="false" />
-        <activity
-            android:name=".IntjActivity"
-            android:exported="false" />
-        <activity
-            android:name=".InfpActivity"
-            android:exported="false" />
-        <activity
-            android:name=".InfjActivity"
-            android:exported="false" />
-        <activity
-            android:name=".EstpActivity"
-            android:exported="false" />
-        <activity
-            android:name=".EstjActivity"
-            android:exported="false" />
-        <activity
-            android:name=".EsfpActivity"
-            android:exported="false" />
-        <activity
-            android:name=".EsfjActivity"
-            android:exported="false" />
-        <activity
-            android:name=".EntpActivity"
-            android:exported="false" />
-        <activity
-            android:name=".EntjActivity"
-            android:exported="false" />
-        <activity
-            android:name=".EnfpActivity"
-            android:exported="false" />
-        <activity
-            android:name=".EnfjActivity"
+            android:name=".CircleActivity"
             android:exported="false" />
         <activity
             android:name=".SplashScreenActivity"
@@ -70,19 +28,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".details.YellowActivity"
-            android:exported="false" />
-        <activity
-            android:name=".details.RedActivity"
-            android:exported="false" />
-        <activity
-            android:name=".details.BlueActivity"
-            android:exported="false" />
-        <activity
-            android:name=".details.GreenActivity"
-            android:exported="false" />
-        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

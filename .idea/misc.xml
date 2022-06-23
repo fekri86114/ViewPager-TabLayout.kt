@@ -20,8 +20,11 @@
         <entry key="..\:/Users/Klap.ir/Documents/android/AndroidProject/KotlinTraining/app/src/main/res/drawable/button_blue_shape.xml" value="0.1915" />
         <entry key="..\:/Users/Klap.ir/Documents/android/AndroidProject/KotlinTraining/app/src/main/res/drawable/button_green_shape.xml" value="0.1915" />
         <entry key="..\:/Users/Klap.ir/Documents/android/AndroidProject/KotlinTraining/app/src/main/res/drawable/button_red_shape.xml" value="0.1915" />
+        <entry key="..\:/Users/Klap.ir/Documents/android/AndroidProject/KotlinTraining/app/src/main/res/drawable/button_shape.xml" value="0.189" />
         <entry key="..\:/Users/Klap.ir/Documents/android/AndroidProject/KotlinTraining/app/src/main/res/drawable/button_yellow_shape.xml" value="0.1915" />
+        <entry key="..\:/Users/Klap.ir/Documents/android/AndroidProject/KotlinTraining/app/src/main/res/drawable/edittext_shape.xml" value="0.189" />
         <entry key="..\:/Users/Klap.ir/Documents/android/AndroidProject/KotlinTraining/app/src/main/res/layout/activity_blue.xml" value="0.21875" />
+        <entry key="..\:/Users/Klap.ir/Documents/android/AndroidProject/KotlinTraining/app/src/main/res/layout/activity_circle.xml" value="0.21875" />
         <entry key="..\:/Users/Klap.ir/Documents/android/AndroidProject/KotlinTraining/app/src/main/res/layout/activity_enfj.xml" value="0.25" />
         <entry key="..\:/Users/Klap.ir/Documents/android/AndroidProject/KotlinTraining/app/src/main/res/layout/activity_enfp.xml" value="0.21875" />
         <entry key="..\:/Users/Klap.ir/Documents/android/AndroidProject/KotlinTraining/app/src/main/res/layout/activity_entj.xml" value="0.21875" />
@@ -43,6 +46,7 @@
         <entry key="..\:/Users/Klap.ir/Documents/android/AndroidProject/KotlinTraining/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/Klap.ir/Documents/android/AndroidProject/KotlinTraining/app/src/main/res/layout/activity_red.xml" value="0.2015625" />
         <entry key="..\:/Users/Klap.ir/Documents/android/AndroidProject/KotlinTraining/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Users/Klap.ir/Documents/android/AndroidProject/KotlinTraining/app/src/main/res/layout/activity_square_activity.xml" value="0.21875" />
         <entry key="..\:/Users/Klap.ir/Documents/android/AndroidProject/KotlinTraining/app/src/main/res/layout/activity_yellow.xml" value="0.2015625" />
       </map>
     </option>
