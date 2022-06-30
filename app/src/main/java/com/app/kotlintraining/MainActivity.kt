@@ -1,35 +1,46 @@
 package com.app.kotlintraining
 
-import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.app.kotlintraining.databinding.ActivityMainBinding
+import com.google.android.material.tabs.TabLayout
+import com.google.android.material.tabs.TabLayoutMediator
 
-
-class MainActivity : AppCompatActivity(), View.OnClickListener {
+class MainActivity : AppCompatActivity() {
+    lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
-        val binding = ActivityMainBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
+        binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.buttonCircle.setOnClickListener(this)
-        binding.buttonSquare.setOnClickListener(this)
+        val myAdapter = MyViewPagerAdapter(this)
+        binding.viewPagerMain.adapter = myAdapter
+        binding.viewPagerMain.offscreenPageLimit = 3
 
+        val mediator = TabLayoutMediator(
+            binding.tabLayoutMain,
+            binding.viewPagerMain,
+            object : TabLayoutMediator.TabConfigurationStrategy {
+                override fun onConfigureTab(tab: TabLayout.Tab, position: Int) {
 
-    }
+                    when (position) {
 
-    override fun onClick(view: View?) {
-        when (view?.id) {
-            R.id.button_circle -> {
-                val intent = Intent(this, CircleActivity::class.java)
-                startActivity(intent)
-            }
-            R.id.button_square -> {
-                val intent = Intent(this, SquareActivity::class.java)
-                startActivity(intent)
-            }
-        }
+                        0 -> {
+                            tab.text = "frag1"
+                        }
+
+                        1 -> {
+                            tab.text = "frag2"
+                        }
+
+                        2 -> {
+                            tab.text = "frag3"
+                        }
+
+                    }
+                }
+            })
+        mediator.attach()
 
     }
 }

@@ -9,4 +9,6 @@
     <string name="enter_the_radius">Enter the radius</string>
     <string name="enter_the_side">Enter the side</string>
     <string name="chose_one">Chose One</string>
+    <string name="amazon">Amazon</string>
+    <string name="my_sample">My sample</string>
 </resources>
